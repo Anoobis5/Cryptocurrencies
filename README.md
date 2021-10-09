@@ -8,8 +8,9 @@ Our task is to provide a report that includes which cryptocurrencies are on the 
 ## Results of Analysis
 
 After processing and cleaning our data, we came up with a total of 532 tradable cryptocurrencies:
+![Tradeable Crypto](https://user-images.githubusercontent.com/84881187/136663386-81a12d76-2ce8-440d-adcf-738f163529d7.PNG)
+![coins mined](https://user-images.githubusercontent.com/84881187/136663400-7cef6d8c-c22b-4a74-abbd-7dafc35a0b83.PNG)
 
-![Tradable_Crypto](https://user-images.githubusercontent.com/84881187/136662316-3e25fbfb-c174-426e-b66a-b185660e12b6.PNG)
 
 
 Since we do not know what our output will be, we used unsupervised machine learning models to identify clusters of our cryptocurrency data. Using the K-Mean method to iterate on k-values 1-10, we visualized an elbow curve plot:
@@ -31,4 +32,4 @@ We then created a scatter plot with our X-Axis as the "TotalCoinsMined", our Y-A
 
 ## Project Summary
 
-Using our Unsupervised Machine Learning model, we can identify the classifications of 532 cryptocurrencies based on similarities in their features. Lookingat our data, we can see that Bitcoin outclasses all other cryptocurrencies, and could be used as a good exemplar of growth. However, we feel that it would be beneficial to re-run this analysis without Bitcoin to see if we can discover any other, more optimal clsuters. We will need to further analyze each group without Bitcoin to determine their potentiala and their growth performance to best suit the needs of our client and their customers in the cryptocurrency market.
+Using our Unsupervised Machine Learning model, we can identify the classifications of 532 cryptocurrencies based on similarities in their features. We will need to further analyze each group to determine their potentiala and their growth performance to best suit the needs of our client and their customers in the cryptocurrency market. It might be beneficial to re-run our analysis without the outlier Bit Torrent to get a better look at optimal clusters of potential cryptocurrency growth. 
